@@ -90,6 +90,19 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\DeviceStatus.application" />
+    <None Include="bin\Debug\DeviceStatus.exe.manifest" />
+    <None Include="bin\Release\DeviceStatus.application" />
+    <None Include="bin\Release\DeviceStatus.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DeviceStatus.exe" />
+    <Content Include="bin\Debug\DeviceStatus.pdb" />
+    <Content Include="bin\Release\app.publish\DeviceStatus.exe" />
+    <Content Include="bin\Release\DeviceStatus.exe" />
+    <Content Include="bin\Release\DeviceStatus.pdb" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
